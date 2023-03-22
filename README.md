@@ -5,4 +5,4 @@ This is a series of basic implementations of html that constantly repeat , one i
 
 ## DEMOS
 
-- [Flex Basics](https://codesandbox.io/s/jolly-gates-76pw8j?file=/style.css)
+- <a href="https://codesandbox.io/s/jolly-gates-76pw8j?file=/index.html" target="_blank">Flex Basics</a>
