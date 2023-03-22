@@ -1,0 +1,38 @@
+/* This is just template styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* I'm giving some padding to the body only to separate the div and to give a first glance on how the vertical align could be made */
+body {
+  background-color: rgba(112, 128, 144, 0.481);
+  padding: 100px;
+}
+
+/* I'm giving height to the container element because in html the content is empty so the tag will not render any height by default. Also I'm using flex because I need all the tags inside this one to render in a row instead of one below another. This can be accomplished not just because of the flex, but because the flex itself by default comes with a property set up called flex-direction and it's value is set as "row" and so it dictates all of its children to behabe like a row instead of their normal display  */
+.container {
+  /* this bit controls how the tags inside the element with the class container will behave in a row like form and that it's space between all children will be of 16px */
+  display: flex;
+  gap: 16px;
+
+  background-color: aliceblue;
+  border-radius: 6px;
+  height: 500px;
+  padding: 16px;
+}
+
+/* I'm using padding so that the element's content wont touch the border of the element. In theory the element is a div, so it will try to occupy the entire width of the container element by default. In practice, we can see it only renders at 50% of the width and that is because it's parent element is a flex, so it mandates all children to render in a row by default */
+.container__column {
+  padding: 16px;
+  border-radius: 6px;
+}
+
+.column-one {
+  background-color: rgb(252 165 165);
+}
+
+.column-two {
+  background-color: rgb(253 186 116);
+}

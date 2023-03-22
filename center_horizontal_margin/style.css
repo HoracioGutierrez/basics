@@ -1,0 +1,20 @@
+/* This is just template styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* I'm giving some padding to the body only to separate the div and to give a first glance on how the vertical align could be made */
+body {
+  background-color: rgba(112, 128, 144, 0.481);
+  padding: 100px 0;
+}
+
+/* The margin of the div together with it's width are making the magic. As long as the div's size is less than the browser window (the body, the div's container in this case, will be the size of the browser since it's a block tag by default, hence it has to occupy the entire width), the remaining space to it's right will be automatically displaced to both sides */
+div {
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  border: 2px dashed white;
+}
