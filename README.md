@@ -7,6 +7,7 @@ This is a series of basic implementations of html that constantly repeat , one i
 
 - <a href="https://codesandbox.io/s/jolly-gates-76pw8j?file=/index.html" target="_blank">Flex Basics</a>
 - <a href="https://codesandbox.io/s/magical-kapitsa-k6kp6r?file=/index.html" target="_blank">Center Horizontal Margin</a>
+- <a href="https://codesandbox.io/s/spring-sunset-skbcnf?file=/index.html" target="_blank">Event Target</a>
 
 ## TRANSLATIONS 
 
