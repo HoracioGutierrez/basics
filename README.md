@@ -6,6 +6,7 @@ This is a series of basic implementations of html that constantly repeat , one i
 ## DEMOS
 
 - <a href="https://codesandbox.io/s/jolly-gates-76pw8j?file=/index.html" target="_blank">Flex Basics</a>
+- <a href="https://codesandbox.io/s/magical-kapitsa-k6kp6r?file=/index.html" target="_blank">Center Horizontal Margin</a>
 
 ## TRANSLATIONS 
 
