@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="header__title">My Page</h1>
+    <nav class="header__nav">
+      <a href="#" class="header__link link">link</a>
+      <a href="#" class="header__link link">link</a>
+      <a href="#" class="header__link link">link</a>
+    </nav>
+  </header>
+  <main class="main">
+    <section class="articles">
+      <h2 class="articles__title">Section Title</h2>
+      <form class="form">
+        <div class="form__control">
+          <label class="form__label" for="image">image url</label>
+          <input class="form__input" type="text" name="image" id="image" placeholder="image url" pattern="https://.*" required>
+        </div>
+        <div class="form__control">
+          <label class="form__label" for="title">title</label>
+          <input class="form__input" type="text" name="title" id="title" placeholder="title" pattern="[a-zA-Z0-9!?\-_()]{2,50}" required>
+        </div>
+        <div class="form__control">
+          <label class="form__label" for="description">description</label>
+          <input class="form__input" type="text" name="description" id="description" placeholder="description" required
+            pattern="[a-zA-Z0-9!?\-_()]{2,300}">
+        </div>
+        <button class="form__button button overlay">add article</button>
+      </form>
+      <div class="articles-container">
+        <article class="article overlay">
+          <img class="article__image" src="https://picsum.photos/200/300" alt="picture">
+          <h3 class="article__title">Article Title</h3>
+          <p class="article__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+          <button class="button article__button overlay">call to action</button>
+        </article>
+        <article class="article overlay">
+          <img class="article__image" src="https://picsum.photos/200/300" alt="picture">
+          <h3 class="article__title">Article Title</h3>
+          <p class="article__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+          <button class="button article__button overlay">call to action</button>
+        </article>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__copyright">
+      <p class="footer__text">© 2021</p>
+      <p class="footer__text">Copyright</p>
+    </div>
+    <div class="footer__social">
+      <ul class="footer__list">
+        <li class="footer__item"><a href="#" class="footer__link link">link</a></li>
+        <li class="footer__item"><a href="#" class="footer__link link">link</a></li>
+        <li class="footer__item"><a href="#" class="footer__link link">link</a></li>
+      </ul> 
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
